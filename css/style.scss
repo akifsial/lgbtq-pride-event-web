@@ -35,3 +35,27 @@ body{
     margin-left: 20px;
     border: black solid 1.5px;
 }
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 15px;
+
+    a{
+    color: black;
+    text-decoration: none;
+   }
+}
+.first-btns{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.circle {
+   width: 4px;
+   height: 4px;
+   background-color: #6fb3c8; 
+   border: 1px solid black;  
+   border-radius: 50%;        
+}
