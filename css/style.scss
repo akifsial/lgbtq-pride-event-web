@@ -1,3 +1,30 @@
+@font-face {
+    font-family: JetBrainsMono-Regular;
+    font-style: Regular;
+    font-weight: 400;
+    src: url(../fonts/static/JetBrainsMono-Regular.ttf);
+}
+@font-face {
+    font-family: JetBrainsMono-Medium;
+    font-style: Medium;
+    font-weight: 500;
+    src: url(../fonts/static/JetBrainsMono-Medium.ttf);
+}
+@font-face {
+    font-family: RammettoOne-Regular;
+    font-style: Regular;
+    font-weight: 400;
+    src: url(../fonts/Rammetto_One/RammettoOne-Regular.ttf);
+}
+@font-face {
+    font-family: Montserrat-Medium;
+    font-style: Medium;
+    font-weight: 500;
+    src: url(../fonts/Rammetto_One/RammettoOne-Regular.ttf);
+}
+
+
+
 body{
     background-color: #FFD232;
 }
@@ -7,9 +34,13 @@ body{
     margin-left: 30px;
     margin-right: 27px;
     margin-bottom: 21px;
+    width: 1290px;
+    height: 540px;
+    border-radius: 48px;
+    border: black solid 3px;
 }
-/*.site-text{
-    font-family: Arial, Helvetica, sans-serif;
+.site-text{
+    font-family: JetBrainsMono-Regular;
     margin-top: 1px;
     padding-left: 84px;
 }
@@ -41,6 +72,7 @@ body{
     a{
     color: black;
     text-decoration: none;
+    font-family: JetBrainsMono-Medium;
    }
 }
 .first-btns{
@@ -54,4 +86,4 @@ body{
    background-color: #6fb3c8; 
    border: 1px solid black;  
    border-radius: 50%;        
-}*/
+}
