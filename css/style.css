@@ -83,29 +83,72 @@ body {
   top: 81%;
   left: 5%; }
 
+.prideimage {
+  position: relative;
+  top: 60%;
+  left: -15%; }
+
 .rainbowtwo {
   position: relative;
   top: 81%;
-  left: 50%; }
+  left: 40%; }
 
-.triangle {
+.pride-image {
   position: relative;
-  top: 40%;
-  left: -50%; }
-
-.loveicon {
-  position: relative;
-  top: 35%;
-  left: -42%; }
+  top: 65%;
+  left: 25%; }
 
 .staricon {
   position: relative;
   top: 80.5%;
-  left: 38.5%; }
+  left: 18.5%; }
+
+.triangle {
+  position: relative;
+  top: 40%;
+  left: -60%; }
+
+.loveicon {
+  position: relative;
+  top: 35%;
+  left: -55%; }
 
 .hearticon {
   position: relative;
-  top: 65%;
-  left: 43%; }
+  top: 72%;
+  left: 23%; }
+
+.right-text {
+  width: 297px;
+  height: 241px;
+  font-size: 18px;
+  font-family: JetBrainsMono-Regular;
+  padding-left: 875px;
+  padding-top: 20%; }
+
+.add-btn {
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  border: 3px solid black;
+  border-radius: 70px; }
+
+.add-btn p {
+  width: 111px;
+  font-family: JetBrainsMono-Medium;
+  font-size: 20px;
+  padding-left: 30px; }
+
+.arrowicon {
+  background: #e754b3;
+  padding: 19px 39px;
+  font-size: 18px;
+  border-radius: 70px;
+  border-left: 3px black solid; }
+
+.big-btn {
+  display: flex;
+  justify-content: end;
+  padding-right: 24px; }
 
 /*# sourceMappingURL=style.css.map */

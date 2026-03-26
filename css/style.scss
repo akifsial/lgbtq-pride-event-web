@@ -4,18 +4,21 @@
     font-weight: 400;
     src: url(../fonts/static/JetBrainsMono-Regular.ttf);
 }
+
 @font-face {
     font-family: JetBrainsMono-Medium;
     font-style: Medium;
     font-weight: 500;
     src: url(../fonts/static/JetBrainsMono-Medium.ttf);
 }
+
 @font-face {
     font-family: RammettoOne-Regular;
     font-style: Regular;
     font-weight: 400;
     src: url(../fonts/Rammetto_One/RammettoOne-Regular.ttf);
 }
+
 @font-face {
     font-family: Montserrat-Medium;
     font-style: Medium;
@@ -25,10 +28,11 @@
 
 
 
-body{
+body {
     background-color: #FFD232;
 }
-.box-one{
+
+.box-one {
     background-color: #7BCEF2;
     margin-top: 30px;
     margin-left: 30px;
@@ -39,12 +43,14 @@ body{
     border-radius: 48px;
     border: black solid 1.5px;
 }
-.site-text{
+
+.site-text {
     font-family: JetBrainsMono-Regular;
     margin-top: 1px;
     padding-left: 84px;
 }
-.box-two{
+
+.box-two {
     background-color: #FFD232;
     width: 1245px;
     height: 1245px;
@@ -53,7 +59,8 @@ body{
     margin-left: 20px;
     border: black solid 1.5px;
 }
-.box-three{
+
+.box-three {
     background-color: white;
     width: 1200px;
     height: 1200px;
@@ -62,58 +69,105 @@ body{
     margin-left: 20px;
     border: black solid 1.5px;
 }
-.nav-bar{
+
+.nav-bar {
     display: flex;
     justify-content: space-between;
     padding-left: 50px;
     padding-right: 50px;
     padding-top: 15px;
 
-    a{
-    color: black;
-    text-decoration: none;
-    font-family: JetBrainsMono-Medium;
-   }
+    a {
+        color: black;
+        text-decoration: none;
+        font-family: JetBrainsMono-Medium;
+    }
 }
-.first-btns{
+
+.first-btns {
     display: flex;
     align-items: center;
     gap: 15px;
 }
+
 .circle {
-   width: 4px;
-   height: 4px;
-   background-color: #6fb3c8; 
-   border: 1px solid black;  
-   border-radius: 50%;        
+    width: 4px;
+    height: 4px;
+    background-color: #6fb3c8;
+    border: 1px solid black;
+    border-radius: 50%;
 }
-.rainbowone{
+
+.rainbowone {
     position: relative;
     top: 81%;
     left: 5%;
 }
-.rainbowtwo{
+.prideimage{
+    position: relative;
+    top: 60%;
+    left: -15%;
+}
+.rainbowtwo {
     position: relative;
     top: 81%;
-    left: 50%;
+    left: 40%;
 }
-.triangle{
-    position: relative;
-    top: 40%;
-    left: -50%;
-}
-.loveicon{
-    position: relative;
-    top: 35%;
-    left: -42%;
-}
-.staricon{
-    position: relative;
-    top: 80.5%;
-    left: 38.5%;
-}
-.hearticon{
+.pride-image{
     position: relative;
     top: 65%;
-    left: 43%;
+    left: 25%;
+}
+.staricon {
+    position: relative;
+    top: 80.5%;
+    left: 18.5%;
+}
+.triangle {
+    position: relative;
+    top: 40%;
+    left: -60%;
+}
+.loveicon {
+    position: relative;
+    top: 35%;
+    left: -55%;
+}
+.hearticon {
+    position: relative;
+    top: 72%;
+    left: 23%;
+}
+.right-text {
+    width: 297px;
+    height: 241px;
+    font-size: 18px;
+    font-family: JetBrainsMono-Regular;
+    padding-left: 875px;
+    padding-top: 20%;
+}
+.add-btn{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    border: 3px solid black;
+    border-radius: 70px;
+}
+.add-btn p{
+    width: 111px;
+    font-family: JetBrainsMono-Medium;
+    font-size: 20px;
+    padding-left: 30px;
+}
+.arrowicon{
+    background: #e754b3;
+    padding: 19px 39px;
+    font-size: 18px;
+    border-radius: 70px;
+    border-left: 3px black solid;
+}
+.big-btn{
+    display: flex;
+    justify-content: end;
+    padding-right: 24px;
 }
