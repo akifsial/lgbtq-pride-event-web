@@ -30,6 +30,9 @@
 
 body {
     background-color: #FFD232;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .box-one {
@@ -126,12 +129,12 @@ body {
 .triangle {
     position: relative;
     top: 40%;
-    left: -60%;
+    left: -72%;
 }
 .loveicon {
     position: relative;
     top: 35%;
-    left: -55%;
+    left: -67%;
 }
 .hearticon {
     position: relative;

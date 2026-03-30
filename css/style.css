@@ -19,7 +19,10 @@
   font-weight: 500;
   src: url(../fonts/Rammetto_One/RammettoOne-Regular.ttf); }
 body {
-  background-color: #FFD232; }
+  background-color: #FFD232;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
 
 .box-one {
   background-color: #7BCEF2;
@@ -106,12 +109,12 @@ body {
 .triangle {
   position: relative;
   top: 40%;
-  left: -60%; }
+  left: -72%; }
 
 .loveicon {
   position: relative;
   top: 35%;
-  left: -55%; }
+  left: -67%; }
 
 .hearticon {
   position: relative;
